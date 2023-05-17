@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="40dp"
+        android:paddingLeft="20dp"
+        >
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="wrap_content"
+            android:background="@color/white"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/back"
+            android:clickable="true"
+            android:onClick="onClickHandler5"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="175dp"
+        android:paddingLeft="20dp"
+
+        android:paddingRight="40dp">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Введите код из E-mail"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="89dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingTop="10dp">
+
+            <EditText
+                android:id="@+id/editTextNumber1"
+                android:layout_width="50dp"
+                android:layout_height="48dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/edit_text_style"
+                android:ems="3"
+                android:maxLength="1"
+                android:gravity="center"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/editTextNumber2"
+                android:layout_width="50dp"
+                android:layout_height="48dp"
+                android:background="@drawable/edit_text_style"
+                android:ems="3"
+                android:maxLength="1"
+                android:gravity="center"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/editTextNumber3"
+                android:layout_width="50dp"
+                android:layout_height="48dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/edit_text_style"
+                android:ems="3"
+                android:maxLength="1"
+                android:gravity="center"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/editTextNumber4"
+                android:layout_width="50dp"
+                android:layout_height="48dp"
+                android:background="@drawable/edit_text_style"
+                android:ems="3"
+                android:maxLength="1"
+                android:gravity="center"
+                android:inputType="number" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Отправить код повторно можно" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:enabled="false"
+            android:paddingTop="40dp"
+            android:onClick= "onClickRetrysend"
+            android:text="Отправить код повторно"
+            />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="73dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/grey"
+            android:onClick="onClickHandler6"
+            android:text="Ok" />
+
+
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

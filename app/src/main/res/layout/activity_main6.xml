@@ -96,7 +96,7 @@
                 android:layout_height="56dp"
                 android:text="Далее"
                 android:ems="23"
-                android:backgroundTint="@color/blue"
+                android:backgroundTint="@color/blue3"
                 android:layout_gravity="center"
                 android:textAlignment="center"
                 app:cornerRadius="7dp"
