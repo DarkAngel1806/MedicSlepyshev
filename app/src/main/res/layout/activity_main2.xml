@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:gravity="center"
     android:paddingTop="10dp"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity2">
     <LinearLayout
         android:id = "@+id/lin"
         android:layout_width="match_parent"
@@ -27,7 +27,7 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="10dp"
                 android:clickable="true"
-                android:onClick="onClickHandler"
+                android:onClick="onClick"
                 android:paddingBottom="100dp"
                 android:text="Пропустить"
                 android:textColor="#3399ff"
