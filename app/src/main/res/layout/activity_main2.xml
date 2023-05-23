@@ -7,7 +7,10 @@
     android:orientation="vertical"
     android:gravity="center"
     android:paddingTop="10dp"
-    tools:context=".MainActivity2">
+    tools:context=".MainActivity2"
+    android:onClick="onScreenTouch">
+
+
     <LinearLayout
         android:id = "@+id/lin"
         android:layout_width="match_parent"
