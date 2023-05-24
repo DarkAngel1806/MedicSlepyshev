@@ -6,4 +6,122 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity8">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:paddingTop="60dp"
+            android:paddingRight="15dp"
+            android:text="Пропустить"
+            android:clickable="true"
+            android:textColor="@color/blue2" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="240dp"
+            android:layout_height="56dp"
+            android:layout_marginLeft="20dp"
+            android:paddingTop="10dp"
+            android:text="Создание карты пациента"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="335dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="1dp"
+            android:paddingTop="10dp"
+            android:text="Без карты пациента вы не сможете заказать анализы."
+            android:textColor="@color/gray"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="335dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="1dp"
+            android:paddingTop="10dp"
+            android:text="В картах пациента будут храниться результаты анализов вас и ваших близких"
+            android:textColor="@color/gray"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/Name"
+            android:layout_width="335dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edit_text_style"
+            android:hint="Имя"
+            android:paddingLeft="10dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:textSize="15dp"
+            android:textColor="@color/gray"/>
+
+        <EditText
+            android:id="@+id/Otchestco"
+            android:layout_width="335dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edit_text_style"
+            android:hint="Отчество"
+            android:paddingLeft="10dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:textSize="15dp"
+            android:textColor="@color/gray"/>
+
+        <EditText
+            android:id="@+id/Familiay"
+            android:layout_width="335dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edit_text_style"
+            android:hint="Фамилия"
+            android:paddingLeft="10dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:textSize="15dp"
+            android:textColor="@color/gray"/>
+
+        <EditText
+            android:id="@+id/Birthsday"
+            android:layout_width="335dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edit_text_style"
+            android:hint="Дата рождения"
+            android:paddingLeft="10dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:textSize="15dp"
+            android:textColor="@color/gray"/>
+
+        <Spinner
+            android:id="@+id/Pol"
+            android:layout_width="335dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edit_text_style" />
+
+
+
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
