@@ -6,4 +6,77 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity9">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="335dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="50dp"
+            app:srcCompat="@drawable/Header"
+            />
+        
+        <TextView
+            android:layout_width="124dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="35dp"
+            android:hint="Акции и новости"
+            android:textSize="14sp"
+            android:textColor="@color/gray"
+            android:layout_marginTop="10dp"
+            />
+        
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="192dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="20dp"
+            >
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="150dp"
+                    app:srcCompat="@drawable/rectangle"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/msk"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Чек-ап для мужчин"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="30dp"
+                    tools:layout_editor_absoluteY="15dp"
+                    android:textColor="@color/gray"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+
+
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+        
+        <TextView
+            android:layout_width="105dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="20dp"/>
+
+
+        </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

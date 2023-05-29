@@ -151,6 +151,7 @@
             android:clickable="true"
             android:ems="23"
             android:hint="Создать"
+            android:enabled="false"
             android:onClick="onClickHandler8"
             android:textAlignment="center"
             android:textColor="@color/white"
