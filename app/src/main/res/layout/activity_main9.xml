@@ -408,7 +408,107 @@
                     android:text="Добавить"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    android:layout_marginTop="235dp"
+                    android:layout_marginTop="230dp"
+                    android:layout_marginLeft="220dp"
+                    app:cornerRadius="8dp"/>
+
+                <ImageView
+                    android:layout_width="335dp"
+                    android:layout_height="100dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:background="@color/cardview_light_background"
+                    android:layout_marginTop="330dp"
+                    android:layout_marginLeft="30dp"/>
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Биохимический анализ крови, базовый"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="340dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:hint="1 день"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="385dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginTop="405dp"
+                    android:layout_marginLeft="40dp"
+                    android:hint="1800 ₽"/>
+
+                <Button
+                    android:id="@+id/button12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/blue2"
+                    android:text="Добавить"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginTop="380dp"
+                    android:layout_marginLeft="220dp"
+                    app:cornerRadius="8dp"/>
+
+                <ImageView
+                    android:layout_width="335dp"
+                    android:layout_height="100dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:background="@color/cardview_light_background"
+                    android:layout_marginTop="480dp"
+                    android:layout_marginLeft="30dp"/>
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:hint="СОЭ (венозная кровь)"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="490dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:hint="1 день"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="535dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginTop="555dp"
+                    android:layout_marginLeft="40dp"
+                    android:hint="1800 ₽"/>
+
+                <Button
+                    android:id="@+id/button13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/blue2"
+                    android:text="Добавить"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginTop="530dp"
                     android:layout_marginLeft="220dp"
                     app:cornerRadius="8dp"/>
 
