@@ -33,7 +33,7 @@ public class MainActivity5 extends AppCompatActivity {
             @Override
             public void afterTextChanged(Editable s) {
                 String email = edit.getText().toString();
-                if (email.contains("@") & email.contains(".")) {
+                if (email.contains("@") & email.contains("mail") | email.contains("gmail") | email.contains("bk") & email.contains(".com") | email.contains(".ru")) {
                     but1.setBackgroundColor(getResources().getColor(R.color.blue2));
                     but1.setEnabled(true);
                     but1.setClickable(true);
